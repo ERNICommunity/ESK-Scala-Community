@@ -5,5 +5,10 @@ package erni.marvin
   */
 object BasicPlanner extends ProjectPlanner {
 
-  override def estimate(project: Project): Double = 42
+  override def estimate(project: Project): Double = {
+    val totalMin = project.tasks.map(_.min).sum
+    val totalMax = project.tasks.map(_.max).sum
+
+    (totalMin + totalMax) / 2.0
+  }
 }
