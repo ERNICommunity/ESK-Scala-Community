@@ -1,5 +1,7 @@
 # ESK Scala Community
 
+:warning: **REPOSITORY NOT ACTIVE SINCE 2017 Dependabot alerts in git security settings disabled**
+
 Here in ERNI Slovakia we are enthusiastic about functional programming and Scala
 
 ### Ideas for marvin
